@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="./css/mobile/login.css">
+    <link rel="stylesheet" href="./css/tablet/login.css" media="screen and (min-width: 760px)">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="logo fontTitle">
+        <h1>Logo</h1>
+    </header>
+    <main class="main-container">
+        <form action="" class="log-container">
+            <label for="user" class="">
+                <span class="fontText">Usuario</span>
+                <input type="text" name="user" id="user" required class="input-box">
+            </label>
+            <label for="password">
+                <span class="fontText">Contraseña</span>
+                <input type="password" name="password" id="password" autocomplete="current-password" required class="input-box">
+            </label>
+            <input type="submit" value="Iniciar Sesión" class="btn submit">
+        </form>
+
+        <input type="button" value="Registrate" class="btn btn-signup" onclick="window.location.href='./signup.html'">
+    </main>
+    <footer>
+        <h1>Footer</h1>
+        <p>Information</p>
+    </footer>
+</body>
+
+</html>

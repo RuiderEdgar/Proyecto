@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="./css/mobile/signup.css">
+    <link rel="stylesheet" href="./css/tablet/signup.css" media="screen and (min-width: 760px)">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="logo fontTitle">
+        <h1>Logo</h1>
+    </header>
+    <main class="main-container">
+        <form action="" class="log-container">
+            <label for="name">
+                <span class="fontText">Nombres</span>
+                <input type="text" name="name" id="name" required class="input-box" autocomplete="name">
+            </label>
+            <label for="paterno">
+                <span class="fontText">Apellido Paterno</span>
+                <input type="text" name="paterno" id="paterno" required class="input-box">
+            </label>
+            <label for="materno">
+                <span class="fontText">Apellido Materno</span>
+                <input type="text" name=mpaterno" id="materno" required class="input-box">
+            </label>
+            <label for="Boleta">
+                <span class="fontText">Boleta</span>
+                <input type="text" name=Boleta" id="Boleta" required class="input-box">
+            </label>
+            <label for="password">
+                <span class="fontText">Contraseña</span>
+                <input type="password" name="password" id="password" autocomplete="current-password" required class="input-box">
+            </label>
+            <label for="confirm-password">
+                <span class="fontText">Confirmar Contraseña</span>
+                <input type="password" name="confirm-password" id="confirm-password" required class="input-box">
+            </label>
+            <input type="submit" value="Registrate" class="btn submit">
+        </form>
+        <div class="container-sesion">
+            <p class="fontText">¿Ya tienes una cuenta?</p>
+            <input type="button" value="Iniciar Sesión" class="btn btn-login" onclick="window.location.href='./login.html'">
+        </div>
+    </main>
+    <footer>
+        <h1>Footer</h1>
+        <p>Information</p>
+    </footer>
+</body>
+
+</html>

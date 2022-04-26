@@ -1,0 +1,130 @@
+:root {
+    --font: 'Noto Sans', sans-serif;
+    --gray: #c7c7c7;
+    --black: #2b2b2b;
+    --smest: 1.2rem;
+    --sm: 1.4rem;
+    --md: 1.6rem;
+    --lg: 1.8rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--font);
+}
+
+
+/*----------fonts------------*/
+
+.fontTitle {
+    font-family: var(--font);
+    font-weight: bold;
+}
+
+.fontText {
+    font-family: var(--font);
+    font-size: var(--md);
+    font-weight: medium;
+}
+
+.fontButtons {
+    font-family: var(--font);
+    font-size: var(--sm);
+    font-weight: bold;
+}
+
+.fontPlaceHolder {
+    font-family: var(--font);
+    font-size: 1.2vmax;
+    font-weight: bolder;
+}
+
+
+/**----------Header----------*/
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    font-size: 2.8rem;
+}
+
+
+/**----------Form----------*/
+
+.main-container,
+.log-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 0 1rem 0;
+    padding: 0 6rem 0 6rem;
+}
+
+label span {
+    margin-bottom: 1rem;
+}
+
+.input-box {
+    height: 4rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding-left: 1vmin;
+    min-width: 325px;
+    background-color: transparent;
+    border: 3px bold solid;
+    font-family: var(--font);
+    font-size: var(--sm);
+    color: var(--black);
+}
+
+.btn {
+    height: 5.6rem;
+    background-color: transparent;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    border: 1.5px solid bold;
+    font-size: var(--lg);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit {
+    margin-top: 3.5rem;
+    min-width: 195px;
+    width: 50%;
+}
+
+.btn-signup {
+    margin-top: 8rem;
+    min-width: 326px;
+    width: 80%;
+}
+
+footer {
+    border-top: 0.3rem solid black;
+    height: 20vh;
+    width: 100vw;
+    min-width: 450px;
+    background-color: var(--gray);
+    position: absolute;
+    bottom: 0;
+}
