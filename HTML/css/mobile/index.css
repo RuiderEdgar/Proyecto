@@ -1,54 +1,4 @@
-:root {
-    --font: 'Noto Sans', sans-serif;
-    --gray: #c7c7c7;
-    --black: #2b2b2b;
-    --lightGray: #E4E4E4;
-    --placeHolder: #878789;
-    --blue: rgb(16, 69, 155);
-    --colorBrd: black;
-    --smest: 1.2rem;
-    --sm: 1.4rem;
-    --md: 1.6rem;
-    --lg: 1.8rem;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 62.5%;
-    font-family: var(--font);
-}
-
-
-/*----------fonts------------*/
-
-.fontTitle {
-    font-family: var(--font);
-    font-weight: bold;
-}
-
-.fontText {
-    font-family: var(--font);
-    font-size: var(--md);
-    font-weight: medium;
-}
-
-.fontButtons {
-    font-family: var(--font);
-    font-size: var(--sm);
-    font-weight: bold;
-}
-
-.fontPlaceHolder {
-    font-family: var(--font);
-    font-size: 1.2vmax;
-    font-weight: bolder;
-}
-
+@import url(../root.css);
 
 /**----------Header------------*/
 
@@ -122,7 +72,7 @@ main {
     justify-items: center;
 }
 
-.product-container img {
+.product-container a img {
     width: 19.5rem;
     height: 18rem;
     object-fit: cover;
