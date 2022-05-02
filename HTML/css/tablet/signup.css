@@ -5,8 +5,9 @@
 .logo {
     display: flex;
     justify-content: center;
-    margin-top: 5rem;
-    font-size: 2.8rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
 }
 
 
@@ -23,7 +24,7 @@
 label {
     display: flex;
     flex-direction: column;
-    margin: 4rem 0 1rem 0;
+    margin: 1rem 0 1rem 0;
     padding: 0 6rem 0 6rem;
 }
 
@@ -67,18 +68,39 @@ label span {
     width: 50%;
 }
 
-.btn-signup {
-    margin-top: 8rem;
+.btn-login {
     min-width: 326px;
     width: 80%;
+    margin: 0 2rem 2rem 2rem
 }
 
+
+/**----------Container Sesion----------*/
+
+.container-sesion {
+    border: 2px solid var(--colorBrd);
+    margin: 3rem 0 2rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.container-sesion p {
+    text-align: center;
+    margin: 2rem 0 3rem;
+}
+
+
+/**----------Footer----------*/
+
 footer {
-    border-top: 0.3rem solid black;
+    border-top: 0.3rem solid var(--colorBrd);
     height: 20vh;
     width: 100vw;
     min-width: 450px;
     background-color: var(--gray);
-    position: absolute;
+    position: relative;
     bottom: 0;
 }

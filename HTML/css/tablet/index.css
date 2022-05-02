@@ -1,0 +1,139 @@
+
+/**----------Header------------*/
+
+header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    border-bottom: 2px solid var(--black);
+    min-height: 7rem;
+    background-color: blue;
+}
+
+.cart-shoping {
+    width: 4.7rem;
+    cursor: pointer;
+}
+
+.logo,
+.container-icon {
+    display: flex;
+    justify-content: center;
+    font-size: 2.8rem;
+    align-items: center;
+}
+
+.container-icon {
+    width: 7rem;
+}
+
+.logo p {
+    margin-left: 7rem;
+}
+
+
+/**----------Container Search------------*/
+
+.container-search {
+    display: flex;
+    justify-content: center;
+}
+
+.container-search input {
+    margin: 1.7rem 0 4rem;
+    width: 90%;
+    height: 4rem;
+    background-color: var(--lightGray);
+    text-align: center;
+    font-size: var(--md);
+    border: 7px solid #f7f7f7;
+}
+
+
+/**----------Main------------*/
+
+main {
+    background-color: antiquewhite;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 20rem);
+    gap: 2.6rem;
+    place-content: center;
+}
+
+
+/**----------cards_products------------*/
+
+.product-container {
+    width: 20rem;
+    height: 30rem;
+    border: 2px solid var(--gray);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.product-container a img {
+    width: 19.5rem;
+    height: 18rem;
+    object-fit: cover;
+}
+
+.description-container {
+    border-top: 3px solid var(--gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.description-container p:first-child {
+    font-size: var(--sm);
+    justify-content: center;
+    margin: 0 0.5rem;
+}
+
+.price-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.price-container p {
+    font-size: var(--lg) !important;
+    margin-left: 1rem;
+}
+
+.price-Icon-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-Icon-container img {
+    width: 3.65rem;
+    height: 3.65rem;
+    margin: 0 0.5rem 0.5rem 0;
+    cursor: pointer;
+}
+
+.price-Icon-container img:hover {
+    background-color: var(--blue);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+/**----------Footer------------*/
+
+footer {
+    border-top: 0.3rem solid black;
+    height: 20vh;
+    width: 100vw;
+    min-width: 450px;
+    background-color: var(--gray);
+    position: relative;
+    bottom: 0;
+    margin-top: 5rem;
+}
