@@ -70,6 +70,7 @@ label span {
 .btn-signup {
     margin-top: 8rem;
     min-width: 326px;
+    max-width: 327px;
     width: 80%;
 }
 
