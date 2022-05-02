@@ -1,4 +1,34 @@
-@import url(../root.css);
+/**----------Header----------*/
+
+.logo {
+    margin: 2rem 0;
+    font-size: 2.4rem;
+}
+
+
+/**----------Form----------*/
+
+label {
+    margin: 3rem 0 1rem 0;
+    padding: 0;
+}
+
+.submit {
+    margin-top: 3rem;
+    min-width: 195px;
+    max-width: 200px;
+}
+
+.btn-signup {
+    margin-top: 5rem;
+    min-width: 326px;
+    max-width: 330px;
+}
+
+footer {
+    height: 16vh;
+}
+
 
 /**----------Header----------*/
 
@@ -18,6 +48,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: blue;
 }
 
 label {
@@ -70,6 +101,7 @@ label span {
 .btn-signup {
     margin-top: 8rem;
     min-width: 326px;
+    max-width: 327px;
     width: 80%;
 }
 

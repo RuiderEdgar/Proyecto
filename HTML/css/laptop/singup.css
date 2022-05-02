@@ -1,0 +1,51 @@
+/**----------Form----------*/
+
+.log-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 99vw;
+    height: 50rem;
+    flex-wrap: wrap;
+}
+
+label {
+    margin: 2rem 0;
+    padding: 0 3rem;
+}
+
+.submit {
+    width: 60%;
+}
+
+
+/**----------Container Sesion----------*/
+
+.container-sesion {
+    margin: 4rem 0 3rem;
+}
+
+.container-sesion p {
+    text-align: center;
+    margin: 2rem 0 3rem;
+}
+
+.btn-login {
+    min-width: 326px;
+    width: 80%;
+    margin: 0 3rem 2rem 3rem
+}
+
+
+/**----------Footer----------*/
+
+footer {
+    border-top: 0.3rem solid var(--colorBrd);
+    height: 20vh;
+    width: 100vw;
+    min-width: 450px;
+    background-color: var(--gray);
+    position: relative;
+    bottom: 0;
+}
