@@ -95,7 +95,7 @@ label span {
 .submit {
     margin-top: 3.5rem;
     min-width: 195px;
-    width: 50%;
+    width: 80%;
 }
 
 .btn-signup {
@@ -105,12 +105,12 @@ label span {
     width: 80%;
 }
 
-footer {
-    border-top: 0.3rem solid black;
+.footer {
+    border-top: 0.3rem solid var(--colorBrd);
     height: 20vh;
     width: 100vw;
     min-width: 450px;
     background-color: var(--gray);
-    position: absolute;
+    position: relative;
     bottom: 0;
 }

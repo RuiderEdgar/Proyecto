@@ -48,13 +48,13 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    background-color: white;
 }
 
 label {
     display: flex;
     flex-direction: column;
-    margin: 4rem 0 1rem 0;
+    margin: 1rem 0 1rem 0;
     padding: 0 6rem 0 6rem;
 }
 
@@ -63,7 +63,7 @@ label span {
 }
 
 .input-box {
-    height: 4rem;
+    height: 2rem;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -93,24 +93,25 @@ label span {
 }
 
 .submit {
-    margin-top: 3.5rem;
+    margin-top: 1rem;
     min-width: 195px;
     width: 50%;
 }
 
 .btn-signup {
-    margin-top: 8rem;
+    margin-top: 2rem;
     min-width: 326px;
     max-width: 327px;
     width: 80%;
 }
 
 footer {
+    margin-top: 2rem;
     border-top: 0.3rem solid black;
     height: 20vh;
     width: 100vw;
     min-width: 450px;
     background-color: var(--gray);
-    position: absolute;
+    position: relative;
     bottom: 0;
 }
