@@ -1,18 +1,18 @@
-@import url(../root.css);
+
 
 /**----------Header------------*/
 
-header {
+.header {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 1fr auto;
     border-bottom: 2px solid var(--black);
-    min-height: 7rem;
-    margin-bottom: 3.5rem;
-    min-width: 450px;
+    min-height: 1rem;
+    margin-bottom: 0.5rem;
+    
 }
 
 .back-icon {
-    width: 4rem;
+    width: 2rem;
     cursor: pointer;
 }
 
@@ -25,11 +25,11 @@ header {
 }
 
 .container-icon {
-    width: 7rem;
+    width: 4rem;
 }
 
 .logo p {
-    margin-right: 6rem;
+    margin-right: 0rem;
 }
 
 
@@ -50,7 +50,7 @@ main {
 .box-product {
     border: 2px solid var(--black);
     height: 10rem;
-    width: 93.335%;
+    width: 100px;
     margin: 0 auto;
     min-width: 420px;
     display: grid;
@@ -98,7 +98,7 @@ main {
 .checkout {
     border: 2px solid var(--gray);
     height: 7rem;
-    width: 93.335%;
+    width: 200px;
     margin: 0 auto;
     min-width: 420px;
     display: grid;
@@ -123,7 +123,7 @@ main {
     border: 2px solid var(--black);
     background-color: transparent;
     height: 4.8rem;
-    width: 93.335%;
+    width: 200px;
     margin: 0 auto;
     min-width: 420px;
     display: grid;

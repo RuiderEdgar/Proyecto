@@ -5,7 +5,7 @@ header {
     display: grid;
     grid-template-columns: 1fr auto;
     border-bottom: 2px solid var(--black);
-    min-height: 7rem;
+    min-height: 1rem;
     background-color: blue;
 }
 
@@ -16,7 +16,6 @@ header {
 
 .logo,
 .container-icon {
-    display: flex;
     justify-content: center;
     font-size: 2.8rem;
     align-items: center;
@@ -39,7 +38,7 @@ header {
 }
 
 .container-search input {
-    margin: 1.7rem 0 4rem;
+    margin: 1.7rem 0 1.7rem;
     width: 90%;
     height: 4rem;
     background-color: var(--lightGray);
@@ -55,7 +54,7 @@ main {
     background-color: antiquewhite;
     height: fit-content;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 20rem);
+    grid-template-columns: repeat(auto-fill, 25rem);
     gap: 2.6rem;
     place-content: center;
 }
@@ -64,8 +63,8 @@ main {
 /**----------cards_products------------*/
 
 .product-container {
-    width: 20rem;
-    height: 30rem;
+    width: 25rem;
+    height: 28rem;
     border: 2px solid var(--gray);
     display: flex;
     flex-direction: column;
@@ -73,7 +72,7 @@ main {
 }
 
 .product-container a img {
-    width: 19.5rem;
+    width: 24rem;
     height: 18rem;
     object-fit: cover;
 }
@@ -135,5 +134,5 @@ footer {
     background-color: var(--gray);
     position: relative;
     bottom: 0;
-    margin-top: 5rem;
+    margin-top: 0rem;
 }
