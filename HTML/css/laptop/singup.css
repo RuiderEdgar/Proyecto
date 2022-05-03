@@ -19,6 +19,15 @@ label {
     width: 60%;
 }
 
+.input-box {
+    width: 325px;
+}
+
+.submit {
+    margin-top: 3.5rem;
+    width: 70rem;
+}
+
 
 /**----------Container Sesion----------*/
 

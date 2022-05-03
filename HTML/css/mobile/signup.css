@@ -61,7 +61,7 @@ label span {
     font-size: var(--lg);
     font-weight: bold;
     cursor: pointer;
-    color: var(--lightGray);
+    color: var(--colorBrd);
 }
 
 .submit {

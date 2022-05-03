@@ -1,106 +1,25 @@
-@import url(../root.css);
-
-/**----------Header----------*/
-
-.logo {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-size: 2rem;
-}
-
-
 /**----------Form----------*/
 
-.main-container,
-.log-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 label {
-    display: flex;
-    flex-direction: column;
-    margin: 1rem 0 1rem 0;
-    padding: 0 6rem 0 6rem;
-}
-
-label span {
-    margin-bottom: 1rem;
+    padding: 0;
 }
 
 .input-box {
-    height: 4rem;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    padding-left: 1vmin;
-    min-width: 325px;
-    background-color: transparent;
-    border: 3px bold solid;
-    font-family: var(--font);
-    font-size: var(--sm);
-    color: var(--black);
+    width: 450px;
 }
 
 .btn {
-    height: 5.6rem;
-    background-color: transparent;
-    border-radius: 12px;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    -ms-border-radius: 12px;
-    -o-border-radius: 12px;
-    border: 1.5px solid bold;
-    font-size: var(--lg);
-    font-weight: bold;
-    cursor: pointer;
+    border: 1.5px solid var(--colorBrd);
 }
 
 .submit {
     margin-top: 3.5rem;
     min-width: 195px;
-    width: 50%;
+    width: 30rem;
 }
 
 .btn-login {
     min-width: 326px;
-    width: 80%;
+    width: 40rem;
     margin: 0 2rem 2rem 2rem
-}
-
-
-/**----------Container Sesion----------*/
-
-.container-sesion {
-    border: 2px solid var(--colorBrd);
-    margin: 3rem 0 2rem;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-}
-
-.container-sesion p {
-    text-align: center;
-    margin: 2rem 0 3rem;
-}
-
-
-/**----------Footer----------*/
-
-footer {
-    border-top: 0.3rem solid var(--colorBrd);
-    height: 20vh;
-    width: 100vw;
-    min-width: 450px;
-    background-color: var(--gray);
-    position: relative;
-    bottom: 0;
 }
