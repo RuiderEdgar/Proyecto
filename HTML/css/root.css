@@ -1,11 +1,11 @@
 :root {
     --font: 'Noto Sans', sans-serif;
-    --gray: #c7c7c7;
-    --black: #2b2b2b;
-    --lightGray: #E4E4E4;
+    --gray: #05595B;
+    --black: #062C30;
+    --lightGray: #E2D784;
     --placeHolder: #878789;
     --blue: rgb(16, 69, 155);
-    --colorBrd: black;
+    --colorBrd: #F5F5F5;
     --smest: 1.2rem;
     --sm: 1.4rem;
     --md: 1.6rem;
@@ -24,6 +24,8 @@
 html {
     font-size: 62.5%;
     font-family: var(--font);
+    background-color: var(--black);
+    color: var(--lightGray);
 }
 
 

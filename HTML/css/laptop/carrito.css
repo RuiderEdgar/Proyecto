@@ -1,0 +1,26 @@
+/**----------Main------------*/
+
+.box-product {
+    height: 12rem;
+    max-width: 900px;
+    grid-template-columns: 12rem 1fr auto;
+}
+
+.box-product div img {
+    width: 11rem;
+    height: 11.5rem;
+    object-fit: cover;
+}
+
+
+/**----------Footer------------*/
+
+.checkout {
+    height: 8rem;
+    max-width: 900px;
+}
+
+.btn-buy {
+    height: 5.5rem;
+    max-width: 900px;
+}

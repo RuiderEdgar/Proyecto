@@ -5,9 +5,8 @@
 .logo {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-size: 2rem;
+    margin-top: 5rem;
+    font-size: 2.8rem;
 }
 
 
@@ -24,7 +23,7 @@
 label {
     display: flex;
     flex-direction: column;
-    margin: 1rem 0 1rem 0;
+    margin: 4rem 0 1rem 0;
     padding: 0 6rem 0 6rem;
 }
 
@@ -42,21 +41,23 @@ label span {
     padding-left: 1vmin;
     min-width: 325px;
     background-color: transparent;
-    border: 3px bold solid;
+    border: 3px solid;
+    border-color: var(--colorBrd);
     font-family: var(--font);
     font-size: var(--sm);
-    color: var(--black);
+    color: var(--lightGray);
 }
 
 .btn {
     height: 5.6rem;
-    background-color: transparent;
+    background-color: var(--gray);
     border-radius: 12px;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
     -ms-border-radius: 12px;
     -o-border-radius: 12px;
-    border: 1.5px solid bold;
+    border: 1.8px solid var(--colorBrd);
+    color: var(--colorBrd);
     font-size: var(--lg);
     font-weight: bold;
     cursor: pointer;
@@ -68,32 +69,12 @@ label span {
     width: 50%;
 }
 
-.btn-login {
+.btn-signup {
+    margin-top: 8rem;
     min-width: 326px;
+    max-width: 327px;
     width: 80%;
-    margin: 0 2rem 2rem 2rem
 }
-
-
-/**----------Container Sesion----------*/
-
-.container-sesion {
-    border: 2px solid var(--colorBrd);
-    margin: 3rem 0 2rem;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-}
-
-.container-sesion p {
-    text-align: center;
-    margin: 2rem 0 3rem;
-}
-
-
-/**----------Footer----------*/
 
 footer {
     border-top: 0.3rem solid var(--colorBrd);
@@ -101,6 +82,6 @@ footer {
     width: 100vw;
     min-width: 450px;
     background-color: var(--gray);
-    position: relative;
+    position: absolute;
     bottom: 0;
 }

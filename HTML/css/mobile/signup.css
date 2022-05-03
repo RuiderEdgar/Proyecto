@@ -42,24 +42,26 @@ label span {
     padding-left: 1vmin;
     min-width: 325px;
     background-color: transparent;
-    border: 3px bold solid;
+    border: 3px solid var(--colorBrd);
     font-family: var(--font);
     font-size: var(--sm);
-    color: var(--black);
+    color: var(--lightGray);
 }
 
 .btn {
     height: 5.6rem;
-    background-color: transparent;
+    background-color: var(--gray);
     border-radius: 12px;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
     -ms-border-radius: 12px;
     -o-border-radius: 12px;
-    border: 1.5px solid bold;
+    border: 1.5px solid;
+    border-color: var(--colorBrd);
     font-size: var(--lg);
     font-weight: bold;
     cursor: pointer;
+    color: var(--lightGray);
 }
 
 .submit {

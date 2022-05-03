@@ -5,7 +5,7 @@
 header {
     display: grid;
     grid-template-columns: 1fr auto;
-    border-bottom: 2px solid var(--black);
+    border-bottom: 2px solid var(--colorBrd);
     min-height: 7rem;
 }
 
@@ -52,7 +52,6 @@ header {
 /**----------Main------------*/
 
 main {
-    background-color: antiquewhite;
     height: fit-content;
     display: grid;
     grid-template-columns: repeat(auto-fill, 20rem);
@@ -66,24 +65,32 @@ main {
 .product-container {
     width: 20rem;
     height: 30rem;
-    border: 2px solid var(--gray);
+    border: 3px solid var(--lightGray);
     display: flex;
     flex-direction: column;
     justify-items: center;
 }
 
+.product-container a {
+    border-bottom: 3px solid var(--lightGray);
+    text-decoration: none;
+    cursor: pointer;
+    height: 186px;
+}
+
 .product-container a img {
-    width: 19.5rem;
-    height: 18rem;
+    width: 19.4rem;
+    height: 18.3rem;
     object-fit: cover;
 }
 
 .description-container {
-    border-top: 3px solid var(--gray);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+    background-color: var(--gray);
+    border-top: 3px solid var(--gray);
 }
 
 .description-container p:first-child {
@@ -116,7 +123,7 @@ main {
 }
 
 .price-Icon-container img:hover {
-    background-color: var(--blue);
+    background-color: var(--colorBrd);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
