@@ -5,7 +5,7 @@
 header {
     display: grid;
     grid-template-columns: auto 1fr;
-    border-bottom: 2px solid var(--black);
+    border-bottom: 2px solid var(--colorBrd);
     min-height: 7rem;
     margin-bottom: 3.5rem;
     min-width: 600px;
@@ -120,8 +120,8 @@ main {
 }
 
 .btn-buy {
-    border: 2px solid var(--black);
-    background-color: transparent;
+    border: 2px solid var(--colorBrd);
+    background-color: var(--gray);
     height: 4.8rem;
     width: 93.335%;
     margin: 0 auto;
@@ -136,4 +136,5 @@ main {
     cursor: pointer;
     font-size: var(--lg);
     font-weight: bold;
+    color: var(--colorBrd);
 }

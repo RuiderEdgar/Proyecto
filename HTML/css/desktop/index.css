@@ -1,0 +1,15 @@
+main {
+    grid-template-columns: repeat(auto-fill, 20rem);
+    gap: 3rem 8rem;
+    place-content: center;
+    max-width: 120rem;
+}
+
+
+/**----------cards_products------------*/
+
+.product-container {
+    width: 25rem;
+    height: 35rem;
+    border: 3px solid var(--lightGray);
+}
